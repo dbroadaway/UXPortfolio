@@ -1,0 +1,34 @@
+/* Blue Shade Color Theme Swatches in Hex */
+.Арктика.-Затерянная-и-ненужная-1-hex { color: #021373; }
+.Арктика.-Затерянная-и-ненужная-2-hex { color: #020F59; }
+.Арктика.-Затерянная-и-ненужная-3-hex { color: #033473; }
+.Арктика.-Затерянная-и-ненужная-4-hex { color: #033F73; }
+.Арктика.-Затерянная-и-ненужная-5-hex { color: #D9D8D7; }
+
+/*red-orange-pink color theme swatches in hex */
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #FF7414; }
+.My-Color-Theme-2-hex { color: #E84B13; }
+.My-Color-Theme-3-hex { color: #FF3B21; }
+.My-Color-Theme-4-hex { color: #E81328; }
+.My-Color-Theme-5-hex { color: #FF14A1; }
+
+/* Blue-Salmon*/
+/* Color Theme Swatches in Hex */
+.Voyage-Immobile-1-hex { color: #A62D37; }
+.Voyage-Immobile-2-hex { color: #D93D4A; }
+.Voyage-Immobile-3-hex { color: #085CA6; }
+.Voyage-Immobile-4-hex { color: #6CAFD9; }
+.Voyage-Immobile-5-hex { color: #F2884B; }
+
+/*Shades of Red*/
+/* Color Theme Swatches in Hex */
+.Typography-05-1-hex { color: #F23005; }
+.Typography-05-2-hex { color: #BF2604; }
+.Typography-05-3-hex { color: #731702; }
+.Typography-05-4-hex { color: #400D01; }
+.Typography-05-5-hex { color: #0D0D0D; }
+
+body {
+    background-color: orange;
+}
