@@ -1,30 +1,86 @@
+.pallete-blue {
+    background-color: #fafafa;
+    color: #3b33eb;
+    color: #2477d4;
+    color: #2af5f6;
+    color: #8c24d4;
+    color: #F627C5;
+
+}
+
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+
+header {
+    font-family: "Cormorant Garamond", serif;
+    color: #223594;
+}
+
+h1 {
+   
+    text-align: center;
+    font-size: 1.5rem
+}
+
 nav {
-    border: 2px dotted purple;
-    width:50%;
-    margin: 1rem auto;
+    width: 95%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1rem;
 }
 
 nav li {
-    background-color:antiquewhite;
+    text-align: center;
+    width:15%;
 }
-nav a{
+
+nav a {
     display: block;
-    color:blueviolet;
-    text-decoration:none;
-    font-size: 1.5rem;
-padding: 0 .5rem;
-}
-
-nav a:link{
-
-}
-
-nav a:focus, a:hover {
-    background-color: blueviolet;
-    color: white;
-    
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid white;
     
 }
-nav a:hover{
 
+nav a:link, a:visited {
+    color: #223594;
+    border-bottom: 2px solid white;
 }
+
+nav a:focus,
+a:hover {
+    border-bottom: 2px solid #223594;
+}
+
+
+
+main {
+    background-color: #fafafa;
+    width:95%;
+    margin: auto;
+   
+}
+
+.logo a{
+    border-bottom: 2px solid white;
+}
+
+.logo img {
+    width: 100%;
+}
+
+/*.selected{
+border-top: .2rem brown solid;
+border-bottom: .2rem brown solid;
+}*/
