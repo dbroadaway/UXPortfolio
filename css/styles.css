@@ -18,18 +18,21 @@ body {
 }
 
 header {
+    background-color:#2477d4;
     font-family: "Cormorant Garamond", serif;
     color: #223594;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
-   
     text-align: center;
     font-size: 1.5rem
 }
 
 nav {
-    width: 95%;
+    width: 75%;
     margin: auto;
 }
 
@@ -39,6 +42,7 @@ nav ul {
     align-items:center;
     font-size: 1rem;
 }
+
 
 nav li {
     text-align: center;
