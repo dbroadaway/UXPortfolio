@@ -13,12 +13,11 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    
-    
 }
 
 header {
-    background-color:#2477d4;
+    width:95%;
+    margin: auto;
     font-family: "Cormorant Garamond", serif;
     color: #223594;
     display:flex;
@@ -33,20 +32,23 @@ h1 {
 
 nav {
     width: 75%;
-    margin: auto;
+    margin: right;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items:center;
     font-size: 1rem;
 }
 
 
 nav li {
-    text-align: center;
-    width:15%;
+    text-align: right;
+    padding-left:1rem;
+}
+.logo {
+    display: none;
 }
 
 nav a {
@@ -80,10 +82,30 @@ main {
     border-bottom: 2px solid white;
 }
 
-.logo img {
-    width: 100%;
-}
+@media screen and (min-width: 1024px ){
+    header {
+        display: block;
+    }
+    h1 {
+        padding-top:0.25rem;
+    }
+    
+    nav {
+        width:100%;
+        margin: auto;
+    }
 
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+
+    }
+    .logo {
+        display:inline;
+    }
+
+}
 /*.selected{
 border-top: .2rem brown solid;
 border-bottom: .2rem brown solid;
