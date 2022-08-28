@@ -1,138 +1,168 @@
 .pallete-blue {
-    background-color: #fafafa;
-    color: #3b33eb;
-    color: #2477d4;
-    color: #2af5f6;
-    color: #8c24d4;
-    color: #F627C5;
-
+  background-color: #fafafa;
+  color: #3b33eb;
+  color: #2477d4;
+  color: #2af5f6;
+  color: #8c24d4;
+  color: #f627c5;
 }
 
-
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+main {
+  background-color: #fafafa;
+  width: 95%;
+  margin: auto;
+}
+
+header,
+footer {
+  width: 95%;
+  margin: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  color: #223594;
+  background-color: white;
+  font-family: "Cormorant Garamond", serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: white;
-    font-family: "Cormorant Garamond", serif;
-    color: #223594;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+  top: 0;
+  padding-bottom: 0.25rem;
+}
+
+footer {
+  bottom: 0;
+  padding-top: 0.25rem;
+  height: 1.5rem;
 }
 
 h1 {
-    text-align: center;
-    font-size: 1.5rem
+  font-size: 1.4rem;
 }
-
-
-
-nav ul {
-    font-size: 1rem;
-}
-
 
 nav li {
-    text-align: right;
-    padding-left:1rem;
+  text-align: right;
 }
 .logo {
-    display: none;
+  display: none;
 }
 
 nav a {
-    display: block;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-bottom: 2px solid white;
-    
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid white;
 }
 
-nav a:link, a:visited {
-    color: #223594;
-    border-bottom: 2px solid white;
+nav a:link,
+nav a:visited {
+  color: #223594;
+  border-bottom: 2px solid white;
 }
 
 nav a:focus,
-a:hover {
-    border-bottom: 2px solid #223594;
+nav a:hover {
+  border-bottom: 2px solid #223594;
 }
 
-
-
-main {
-    background-color: #fafafa;
-    width:95%;
-    margin: auto;
-   
+.soc-nav {
+    width:20%;
 }
-
-.logo a{
-    border-bottom: 2px solid white;
-}
-
-@media screen and (max-width: 600px){
-    header{
-        display: block;
-    }
-    /*nav ul {
-        display: block;
-        text-align: left;;
-    }*/
-
-    nav li{}
-
-    main {
-        background-color:#fafafa;
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 600px) {
-
-    nav ul {
+.soc-nav ul {
         display: flex;
         justify-content: right;
-        align-items:center;
-    }
-
-    nav {
-        width: 75%;
-        margin: right;
-    }
-    
+        align-items: center;  
 }
 
-@media screen and (min-width: 1024px ){
-    header {
-        display: block;
-    }
-    h1 {
-        padding-top:0.25rem;
-    }
-    
-    nav {
-        width:100%;
-        margin: auto;
-    }
+.soc-nav a {
+text-align: center;
+padding: .1rem .3rem ;
+border-radius: .8rem;
+}
 
-    nav ul {
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
+.soc-nav a:link,
+.soc-nav a:visited {
+    background-color:transparent;
+    color:#223594;
+}
 
-    }
-    .logo {
+.soc-nav a:focus,
+.soc-nav a:hover {
+    color:white;
+    background-color:#223594;
+}
+
+
+.logo a {
+  border-bottom: 2px solid white;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+  nav ul {
+    display: block;
+    text-align: left;
+  }
+  nav li {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  h1 {
+    text-align: left;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  nav {
+    width: 70%;
+    margin: right;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+  h1 {
+    padding-top: 0.25rem;
+  }
+
+  nav {
+    width: 100%;
+    margin: auto;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav li {
+    padding-left: 1rem;
+  }
+  /* .logo {
         display:inline;
-    }
-
+    }*/
 }
-/*.selected{
-border-top: .2rem brown solid;
-border-bottom: .2rem brown solid;
-}*/
