@@ -17,4 +17,4 @@ const quotes = [
        
 ]
 
-const designPrompts = ["The voices in my head", "An obese pigeon on South Street", "Danger and misery at the edges", "A fish trying to climb a tree"]
+const designPrompts = ["The voices in my head", "An obese pigeon on South Street", "Danger and misery at the edges", "A fish trying to climb a tree", "How does a brain work?"]
