@@ -8,15 +8,27 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
 }
 
 main {
   background-color: #fafafa;
   width: 95%;
+ min-height: 100vh;
   margin: auto;
 }
+section {
+    min-height:85vh;
+    border-bottom:5px solid white;
+}
+section p{
+    width: 75%;
+    margin:auto;
+    padding-top:2rem;
+}
+
 
 header,
 footer {
@@ -26,7 +38,7 @@ footer {
   position: sticky;
   color: #223594;
   background-color: white;
-  font-family: "Cormorant Garamond", serif;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
